@@ -32,7 +32,7 @@
                   <Component id="lblHora" min="-2" max="-2" attributes="0"/>
                   <Component id="btnHora" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="332" max="32767" attributes="0"/>
+              <EmptySpace pref="157" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
