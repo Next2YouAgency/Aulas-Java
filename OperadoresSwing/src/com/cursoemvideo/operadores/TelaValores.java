@@ -45,9 +45,9 @@ public class TelaValores extends javax.swing.JFrame {
         jLabel9 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
         lblABS = new javax.swing.JLabel();
-        lblFloor = new javax.swing.JLabel();
-        lblCeil = new javax.swing.JLabel();
-        lblRound = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
+        jLabel13 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -94,11 +94,11 @@ public class TelaValores extends javax.swing.JFrame {
 
         lblABS.setText("0");
 
-        lblFloor.setText("0");
+        jLabel12.setText("0");
 
-        lblCeil.setText("0");
+        jLabel13.setText("0");
 
-        lblRound.setText("0");
+        jLabel14.setText("0");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -154,9 +154,9 @@ public class TelaValores extends javax.swing.JFrame {
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addComponent(lblABS, javax.swing.GroupLayout.Alignment.TRAILING)
-                                            .addComponent(lblFloor, javax.swing.GroupLayout.Alignment.TRAILING)
-                                            .addComponent(lblCeil, javax.swing.GroupLayout.Alignment.TRAILING)
-                                            .addComponent(lblRound, javax.swing.GroupLayout.Alignment.TRAILING))))))))
+                                            .addComponent(jLabel12, javax.swing.GroupLayout.Alignment.TRAILING)
+                                            .addComponent(jLabel13, javax.swing.GroupLayout.Alignment.TRAILING)
+                                            .addComponent(jLabel14, javax.swing.GroupLayout.Alignment.TRAILING))))))))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -195,24 +195,20 @@ public class TelaValores extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel8)
-                    .addComponent(lblFloor))
+                    .addComponent(jLabel12))
                 .addGap(9, 9, 9)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel9)
-                    .addComponent(lblCeil))
+                    .addComponent(jLabel13))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel10)
-                    .addComponent(lblRound))
+                    .addComponent(jLabel14))
                 .addContainerGap(19, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void txtNumActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNumActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtNumActionPerformed
 
     private void btnDivActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDivActionPerformed
         // TODO add your handling code here:
@@ -234,6 +230,10 @@ public class TelaValores extends javax.swing.JFrame {
         
         
     }//GEN-LAST:event_btnDivActionPerformed
+
+    private void txtNumActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNumActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtNumActionPerformed
 
     /**
      * @param args the command line arguments
@@ -274,6 +274,9 @@ public class TelaValores extends javax.swing.JFrame {
     private javax.swing.JButton btnDiv;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
@@ -284,12 +287,9 @@ public class TelaValores extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel9;
     private javax.swing.JLabel lblABS;
     private javax.swing.JLabel lblCBRT;
-    private javax.swing.JLabel lblCeil;
     private javax.swing.JLabel lblDiv;
-    private javax.swing.JLabel lblFloor;
     private javax.swing.JLabel lblPow;
     private javax.swing.JLabel lblRes;
-    private javax.swing.JLabel lblRound;
     private javax.swing.JTextField txtDen;
     private javax.swing.JTextField txtNum;
     // End of variables declaration//GEN-END:variables
